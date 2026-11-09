@@ -79,3 +79,19 @@ WHERE low_fats = 'Y'
 | 28 | [619. Biggest Single Number](https://leetcode.com/problems/biggest-single-number/) | Easy | Subquery in FROM, HAVING | |
 | 29 | [1045. Customers Who Bought All Products](https://leetcode.com/problems/customers-who-bought-all-products/) | Medium | HAVING with subquery | |
 | 30 | [1731. The Number of Employees Which Report to Each Employee](https://leetcode.com/problems/the-number-of-employees-which-report-to-each-employee/) | Easy | Self-join, AVG, COUNT | |
+
+
+### Week 4
+
+| # | Problem | Difficulty | Concepts | Date |
+|---|---------|-----------|----------|------|
+| 31 | [1789. Primary Department for Each Employee](https://leetcode.com/problems/primary-department-for-each-employee/) | Easy | OR with subquery, HAVING | |
+| 32 | [610. Triangle Judgement](https://leetcode.com/problems/triangle-judgement/) | Easy | CASE WHEN | |
+| 33 | [180. Consecutive Numbers](https://leetcode.com/problems/consecutive-numbers/) | Medium | Self-join / LEAD, DISTINCT | |
+| 34 | [1164. Product Price at a Given Date](https://leetcode.com/problems/product-price-at-a-given-date/) | Medium | Subquery with IN, UNION | |
+| 35 | [1204. Last Person to Fit in the Bus](https://leetcode.com/problems/last-person-to-fit-in-the-bus/) | Medium | Window function (running sum) | |
+| 36 | [1907. Count Salary Categories](https://leetcode.com/problems/count-salary-categories/) | Medium | UNION ALL, SUM(CASE) | |
+| 37 | [1978. Employees Whose Manager Left the Company](https://leetcode.com/problems/employees-whose-manager-left-the-company/) | Easy | NOT IN subquery | |
+| 38 | [626. Exchange Seats](https://leetcode.com/problems/exchange-seats/) | Medium | CASE WHEN, modulo | |
+| 39 | [1341. Movie Rating](https://leetcode.com/problems/movie-rating/) | Medium | UNION ALL, ORDER BY + LIMIT | |
+| 40 | [1321. Restaurant Growth](https://leetcode.com/problems/restaurant-growth/) | Medium | Window function (moving average) | |
