@@ -94,4 +94,20 @@ WHERE low_fats = 'Y'
 | 37 | [1978. Employees Whose Manager Left the Company](https://leetcode.com/problems/employees-whose-manager-left-the-company/) | Easy | NOT IN subquery | |
 | 38 | [626. Exchange Seats](https://leetcode.com/problems/exchange-seats/) | Medium | CASE WHEN, modulo | |
 | 39 | [1341. Movie Rating](https://leetcode.com/problems/movie-rating/) | Medium | UNION ALL, ORDER BY + LIMIT | |
-| 40 | [1321. Restaurant Growth](https://leetcode.com/problems/restaurant-growth/) | Medium | Window function (moving average) | |
+| 40 | [1321. Restaurant Growth](https://leetcode.com/problems/restaurant-growth/) | Medium | Window function (moving average) | | 
+
+
+### Week 5
+
+| # | Problem | Difficulty | Concepts | Date |
+|---|---------|-----------|----------|------|
+| 41 | [1667. Fix Names in a Table](https://leetcode.com/problems/fix-names-in-a-table/) | Easy | UPPER, LOWER, SUBSTRING, CONCAT | |
+| 42 | [1527. Patients With a Condition](https://leetcode.com/problems/patients-with-a-condition/) | Easy | LIKE | |
+| 43 | [196. Delete Duplicate Emails](https://leetcode.com/problems/delete-duplicate-emails/) | Easy | DELETE with self-join | |
+| 44 | [176. Second Highest Salary](https://leetcode.com/problems/second-highest-salary/) | Medium | Subquery, LIMIT/OFFSET, IFNULL | |
+| 45 | [1484. Group Sold Products By The Date](https://leetcode.com/problems/group-sold-products-by-the-date/) | Easy | GROUP_CONCAT, COUNT(DISTINCT) | |
+| 46 | [1327. List the Products Ordered in a Period](https://leetcode.com/problems/list-the-products-ordered-in-a-period/) | Easy | JOIN, date filter, HAVING | |
+| 47 | [1517. Find Users With Valid E-Mails](https://leetcode.com/problems/find-users-with-valid-e-mails/) | Easy | REGEXP | |
+| 48 | [602. Friend Requests II: Who Has the Most Friends](https://leetcode.com/problems/friend-requests-ii-who-has-the-most-friends/) | Medium | UNION ALL + GROUP BY | |
+| 49 | [585. Investments in 2016](https://leetcode.com/problems/investments-in-2016/) | Medium | Subqueries with IN / NOT IN | |
+| 50 | [185. Department Top Three Salaries](https://leetcode.com/problems/department-top-three-salaries/) | Hard | Window function (DENSE_RANK) | |
