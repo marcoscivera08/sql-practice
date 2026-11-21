@@ -3,6 +3,7 @@
 Daily SQL practice (2 problems per weekday) to keep query-writing sharp for Data Analyst / Data Science roles.
 
 - **Main track:** [LeetCode SQL 50](https://leetcode.com/studyplan/top-sql-50/) (MySQL / PostgreSQL)
+  ✅ LeetCode SQL 50 completed (Oct–Nov 2026)
 - **Second track (later):** [DataLemur](https://datalemur.com/questions) — real interview questions from tech companies (PostgreSQL)
 
 ## Structure
