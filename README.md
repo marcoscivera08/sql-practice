@@ -70,45 +70,43 @@ WHERE low_fats = 'Y'
 
 | # | Problem | Difficulty | Concepts | Date |
 |---|---------|-----------|----------|------|
-| 21 | [1174. Immediate Food Delivery II](https://leetcode.com/problems/immediate-food-delivery-ii/) | Medium | Subquery with IN, MIN, percentages | |
-| 22 | [550. Game Play Analysis IV](https://leetcode.com/problems/game-play-analysis-iv/) | Medium | Subquery, DATE_ADD / DATEDIFF | |
-| 23 | [2356. Number of Unique Subjects Taught by Each Teacher](https://leetcode.com/problems/number-of-unique-subjects-taught-by-each-teacher/) | Easy | COUNT(DISTINCT) | |
-| 24 | [1141. User Activity for the Past 30 Days I](https://leetcode.com/problems/user-activity-for-the-past-30-days-i/) | Easy | Date range, COUNT(DISTINCT) | |
-| 25 | [1070. Product Sales Analysis III](https://leetcode.com/problems/product-sales-analysis-iii/) | Medium | Subquery with IN, MIN | |
+| 21 | [1174. Immediate Food Delivery II](https://leetcode.com/problems/immediate-food-delivery-ii/) | Medium | Subquery with IN, MIN, percentages | 2026-11-02 |
+| 22 | [550. Game Play Analysis IV](https://leetcode.com/problems/game-play-analysis-iv/) | Medium | Subquery, DATE_ADD, COUNT(DISTINCT) | 2026-11-02 |
+| 23 | [2356. Number of Unique Subjects Taught by Each Teacher](https://leetcode.com/problems/number-of-unique-subjects-taught-by-each-teacher/) | Easy | COUNT(DISTINCT) | 2026-11-05 |
+| 24 | [1141. User Activity for the Past 30 Days I](https://leetcode.com/problems/user-activity-for-the-past-30-days-i/) | Easy | Date range, COUNT(DISTINCT) | 2026-11-05 |
+| 25 | [1070. Product Sales Analysis III](https://leetcode.com/problems/product-sales-analysis-iii/) | Medium | Subquery with IN, MIN | 2026-11-05 |
 | 26 | [596. Classes With at Least 5 Students](https://leetcode.com/problems/classes-with-at-least-5-students/) | Easy | GROUP BY, HAVING | 2026-11-05 |
-| 27 | [1729. Find Followers Count](https://leetcode.com/problems/find-followers-count/) | Easy | GROUP BY, ORDER BY | |
-| 28 | [619. Biggest Single Number](https://leetcode.com/problems/biggest-single-number/) | Easy | Subquery in FROM, HAVING | |
-| 29 | [1045. Customers Who Bought All Products](https://leetcode.com/problems/customers-who-bought-all-products/) | Medium | HAVING with subquery | |
-| 30 | [1731. The Number of Employees Which Report to Each Employee](https://leetcode.com/problems/the-number-of-employees-which-report-to-each-employee/) | Easy | Self-join, AVG, COUNT | |
-
+| 27 | [1729. Find Followers Count](https://leetcode.com/problems/find-followers-count/) | Easy | GROUP BY, ORDER BY | 2026-11-06 |
+| 28 | [619. Biggest Single Number](https://leetcode.com/problems/biggest-single-number/) | Easy | Subquery in FROM, HAVING | 2026-11-06 |
+| 29 | [1045. Customers Who Bought All Products](https://leetcode.com/problems/customers-who-bought-all-products/) | Medium | HAVING with subquery | 2026-11-06 |
+| 30 | [1731. The Number of Employees Which Report to Each Employee](https://leetcode.com/problems/the-number-of-employees-which-report-to-each-employee/) | Easy | Self-join, AVG, COUNT | 2026-11-06 |
 
 ### Week 4
 
 | # | Problem | Difficulty | Concepts | Date |
 |---|---------|-----------|----------|------|
-| 31 | [1789. Primary Department for Each Employee](https://leetcode.com/problems/primary-department-for-each-employee/) | Easy | OR with subquery, HAVING | |
-| 32 | [610. Triangle Judgement](https://leetcode.com/problems/triangle-judgement/) | Easy | CASE WHEN | |
-| 33 | [180. Consecutive Numbers](https://leetcode.com/problems/consecutive-numbers/) | Medium | Self-join / LEAD, DISTINCT | |
-| 34 | [1164. Product Price at a Given Date](https://leetcode.com/problems/product-price-at-a-given-date/) | Medium | Subquery with IN, UNION | |
-| 35 | [1204. Last Person to Fit in the Bus](https://leetcode.com/problems/last-person-to-fit-in-the-bus/) | Medium | Window function (running sum) | |
-| 36 | [1907. Count Salary Categories](https://leetcode.com/problems/count-salary-categories/) | Medium | UNION ALL, SUM(CASE) | |
-| 37 | [1978. Employees Whose Manager Left the Company](https://leetcode.com/problems/employees-whose-manager-left-the-company/) | Easy | NOT IN subquery | |
-| 38 | [626. Exchange Seats](https://leetcode.com/problems/exchange-seats/) | Medium | CASE WHEN, modulo | |
-| 39 | [1341. Movie Rating](https://leetcode.com/problems/movie-rating/) | Medium | UNION ALL, ORDER BY + LIMIT | |
-| 40 | [1321. Restaurant Growth](https://leetcode.com/problems/restaurant-growth/) | Medium | Window function (moving average) | | 
-
+| 31 | [1789. Primary Department for Each Employee](https://leetcode.com/problems/primary-department-for-each-employee/) | Easy | OR with subquery, HAVING | 2026-11-09 |
+| 32 | [610. Triangle Judgement](https://leetcode.com/problems/triangle-judgement/) | Easy | CASE WHEN | 2026-11-09 |
+| 33 | [180. Consecutive Numbers](https://leetcode.com/problems/consecutive-numbers/) | Medium | Triple self-join, DISTINCT | 2026-11-11 |
+| 34 | [1164. Product Price at a Given Date](https://leetcode.com/problems/product-price-at-a-given-date/) | Medium | Subquery with IN, UNION ALL, HAVING MIN | 2026-11-11 |
+| 35 | [1204. Last Person to Fit in the Bus](https://leetcode.com/problems/last-person-to-fit-in-the-bus/) | Medium | Window function (running sum) | 2026-11-11 |
+| 36 | [1907. Count Salary Categories](https://leetcode.com/problems/count-salary-categories/) | Medium | UNION ALL, COUNT without GROUP BY | 2026-11-11 |
+| 37 | [1978. Employees Whose Manager Left the Company](https://leetcode.com/problems/employees-whose-manager-left-the-company/) | Easy | NOT IN subquery | 2026-11-12 |
+| 38 | [626. Exchange Seats](https://leetcode.com/problems/exchange-seats/) | Medium | CASE WHEN, modulo | 2026-11-12 |
+| 39 | [1341. Movie Rating](https://leetcode.com/problems/movie-rating/) | Medium | UNION ALL, ORDER BY + LIMIT | 2026-11-13 |
+| 40 | [1321. Restaurant Growth](https://leetcode.com/problems/restaurant-growth/) | Medium | Window function (moving average) | 2026-11-13 |
 
 ### Week 5
 
 | # | Problem | Difficulty | Concepts | Date |
 |---|---------|-----------|----------|------|
-| 41 | [1667. Fix Names in a Table](https://leetcode.com/problems/fix-names-in-a-table/) | Easy | UPPER, LOWER, SUBSTRING, CONCAT | |
-| 42 | [1527. Patients With a Condition](https://leetcode.com/problems/patients-with-a-condition/) | Easy | LIKE | |
-| 43 | [196. Delete Duplicate Emails](https://leetcode.com/problems/delete-duplicate-emails/) | Easy | DELETE with self-join | |
-| 44 | [176. Second Highest Salary](https://leetcode.com/problems/second-highest-salary/) | Medium | Subquery, LIMIT/OFFSET, IFNULL | |
-| 45 | [1484. Group Sold Products By The Date](https://leetcode.com/problems/group-sold-products-by-the-date/) | Easy | GROUP_CONCAT, COUNT(DISTINCT) | |
-| 46 | [1327. List the Products Ordered in a Period](https://leetcode.com/problems/list-the-products-ordered-in-a-period/) | Easy | JOIN, date filter, HAVING | |
-| 47 | [1517. Find Users With Valid E-Mails](https://leetcode.com/problems/find-users-with-valid-e-mails/) | Easy | REGEXP | |
-| 48 | [602. Friend Requests II: Who Has the Most Friends](https://leetcode.com/problems/friend-requests-ii-who-has-the-most-friends/) | Medium | UNION ALL + GROUP BY | |
-| 49 | [585. Investments in 2016](https://leetcode.com/problems/investments-in-2016/) | Medium | Subqueries with IN / NOT IN | |
-| 50 | [185. Department Top Three Salaries](https://leetcode.com/problems/department-top-three-salaries/) | Hard | Window function (DENSE_RANK) | |
+| 41 | [1667. Fix Names in a Table](https://leetcode.com/problems/fix-names-in-a-table/) | Easy | UPPER, LOWER, SUBSTRING, CONCAT | 2026-11-16 |
+| 42 | [1527. Patients With a Condition](https://leetcode.com/problems/patients-with-a-condition/) | Easy | LIKE | 2026-11-16 |
+| 43 | [196. Delete Duplicate Emails](https://leetcode.com/problems/delete-duplicate-emails/) | Easy | DELETE with self-join | 2026-11-17 |
+| 44 | [176. Second Highest Salary](https://leetcode.com/problems/second-highest-salary/) | Medium | Scalar subquery, LIMIT/OFFSET | 2026-11-17 |
+| 45 | [1484. Group Sold Products By The Date](https://leetcode.com/problems/group-sold-products-by-the-date/) | Easy | GROUP_CONCAT, COUNT(DISTINCT) | 2026-11-18 |
+| 46 | [1327. List the Products Ordered in a Period](https://leetcode.com/problems/list-the-products-ordered-in-a-period/) | Easy | JOIN, date filter, HAVING | 2026-11-18 |
+| 47 | [1517. Find Users With Valid E-Mails](https://leetcode.com/problems/find-users-with-valid-e-mails/) | Easy | REGEXP | 2026-11-19 |
+| 48 | [602. Friend Requests II: Who Has the Most Friends](https://leetcode.com/problems/friend-requests-ii-who-has-the-most-friends/) | Medium | UNION ALL + GROUP BY | 2026-11-19 |
+| 49 | [585. Investments in 2016](https://leetcode.com/problems/investments-in-2016/) | Medium | Subqueries with IN | 2026-11-20 |
+| 50 | [185. Department Top Three Salaries](https://leetcode.com/problems/department-top-three-salaries/) | Hard | Window function (DENSE_RANK) | 2026-11-21 |
